@@ -54,3 +54,20 @@ let berat = prompt("Masukkan berat anda = ");
 let tinggi = prompt("Masukkan tinggi anda = ");
 let hasil = berat / tinggi*tinggi;
 console.log("BMI = "+ hasil );
+
+if (hasil < 18.5)
+{
+    console.log("Underweight");
+}
+else if(hasil <= 22.9)
+{
+    console.log("Normarl");
+}
+else if(hasil <24.9)
+{
+    console.log("OverWeight");
+}
+else
+{
+    console.log("Obese")
+}
